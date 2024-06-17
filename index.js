@@ -49,6 +49,7 @@ for (let index = 0; index < listaEpisodios.length; index++) {
     const title = document.createElement('a')
     title.innerText = listaEpisodios[index].name
     title.setAttribute('href', `http://shd1.doramasapp.xyz/sfgerg54yrt/SHD1/91239/3x${index + 1}.mp4`)
+    title.setAttribute('target', '_blanck')
     player.appendChild(title)
     
     // const elIframe = document.createElement('a')
