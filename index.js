@@ -46,15 +46,16 @@ for (let index = 0; index < listaEpisodios.length; index++) {
     const player = document.createElement('div')
     player.setAttribute('class', 'player')
 
-    const title = document.createElement('h3')
+    const title = document.createElement('a')
     title.innerText = listaEpisodios[index].name
+    title.setAttribute('href', `http://shd1.doramasapp.xyz/sfgerg54yrt/SHD1/91239/3x${index + 1}.mp4`)
     player.appendChild(title)
     
-    const elIframe = document.createElement('iframe')
-    elIframe.setAttribute('src', `http://shd1.doramasapp.xyz/sfgerg54yrt/SHD1/91239/3x${index + 1}.mp4`)
-    elIframe.setAttribute('allowfullscreen', 'true')
-    elIframe.setAttribute('accelerometer', 'true')
-    player.appendChild(elIframe)
+    // const elIframe = document.createElement('a')
+    // elIframe.setAttribute('href', `http://shd1.doramasapp.xyz/sfgerg54yrt/SHD1/91239/3x${index + 1}.mp4`)
+    // elIframe.setAttribute('allowfullscreen', 'true')
+    // // elIframe.setAttribute('accelerometer', 'true')
+    // player.appendChild(elIframe)
 
     tela.appendChild(player)
 }
