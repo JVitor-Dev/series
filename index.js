@@ -3,7 +3,7 @@ const tela = document.getElementById("tela")
 const listaEpisodios = [ 
     {
         "name":   "BRIDGERTON S03 E01",
-        "link": "https://shd1.doramasapp.xyz/sfgerg54yrt/SHD1/91239/3x1.mp4"
+        "link": "http://shd1.doramasapp.xyz/sfgerg54yrt/SHD1/91239/3x1.mp4"
     },
 
     {
