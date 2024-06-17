@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(0, 0, 0);
+    text-align: center;
+    font-family: "Playwrite IS", cursive;
+    color: white;
+}
+
+h1{
+    background-color:  rgb(163, 35, 35);
+    color: rgb(255, 255, 255);
+    margin-bottom: 10px;
+}
+
+
+
+#serie{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
+    font-size: 18px;
+    padding: 25px;
+
+    border-bottom: 2px solid rgba(56, 56, 56, 0.418);
+}
+
+#serie .infos{
+    text-align: left;
+}
+
+#serie .infos h2{
+    font-size: 30px;
+}
+
+img{
+    width: 150px;
+    border-radius: 10px;
+}
+
+.player{
+    border-bottom: 2px solid rgba(56, 56, 56, 0.603);
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+#tela{
+    padding: 25px;
+}
+
+iframe{
+    background-image: url('https://unslash.com/random');
+    border-radius: 5px;
+}
